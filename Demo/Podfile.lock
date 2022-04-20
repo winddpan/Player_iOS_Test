@@ -14,6 +14,29 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - AgoraRtcEngine_iOS (3.6.2):
+    - AgoraRtcEngine_iOS/AINS (= 3.6.2)
+    - AgoraRtcEngine_iOS/AV1Dec (= 3.6.2)
+    - AgoraRtcEngine_iOS/ContentInspect (= 3.6.2)
+    - AgoraRtcEngine_iOS/FullAudioFormat (= 3.6.2)
+    - AgoraRtcEngine_iOS/JND (= 3.6.2)
+    - AgoraRtcEngine_iOS/ReplayKit (= 3.6.2)
+    - AgoraRtcEngine_iOS/ROIEnc (= 3.6.2)
+    - AgoraRtcEngine_iOS/RtcBasic (= 3.6.2)
+    - AgoraRtcEngine_iOS/SuperResolution (= 3.6.2)
+    - AgoraRtcEngine_iOS/VideoPreprocess (= 3.6.2)
+    - AgoraRtcEngine_iOS/VirtualBackground (= 3.6.2)
+  - AgoraRtcEngine_iOS/AINS (3.6.2)
+  - AgoraRtcEngine_iOS/AV1Dec (3.6.2)
+  - AgoraRtcEngine_iOS/ContentInspect (3.6.2)
+  - AgoraRtcEngine_iOS/FullAudioFormat (3.6.2)
+  - AgoraRtcEngine_iOS/JND (3.6.2)
+  - AgoraRtcEngine_iOS/ReplayKit (3.6.2)
+  - AgoraRtcEngine_iOS/ROIEnc (3.6.2)
+  - AgoraRtcEngine_iOS/RtcBasic (3.6.2)
+  - AgoraRtcEngine_iOS/SuperResolution (3.6.2)
+  - AgoraRtcEngine_iOS/VideoPreprocess (3.6.2)
+  - AgoraRtcEngine_iOS/VirtualBackground (3.6.2)
   - BlocksKit (2.2.5):
     - BlocksKit/All (= 2.2.5)
   - BlocksKit/All (2.2.5):
@@ -46,6 +69,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - AgoraRtcEngine_iOS (= 3.6.2)
   - BlocksKit (~> 2.2.5)
   - Bugly
   - CWStatusBarNotification (~> 2.3.5)
@@ -60,6 +84,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - AgoraRtcEngine_iOS
     - BlocksKit
     - Bugly
     - CWStatusBarNotification
@@ -76,6 +101,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AgoraRtcEngine_iOS: 5bf5d2bb6669a6f3606716a02f3fb3ac58708f25
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   Bugly: afe841bba2ea6de6d432a3c125240a5e75949c55
   CWStatusBarNotification: 3d2738b25c3207f60cc50201388d3c96182545ff
@@ -87,6 +113,6 @@ SPEC CHECKSUMS:
   SuperPlayer: a0ee257eba416cf238160613186f5f1008acb4c5
   TXLiteAVSDK_Player: 5a9cea3ba4e77fc8993b19523afbecdfc1a803ce
 
-PODFILE CHECKSUM: df3ee50302b30473bf7bce4ab300599d5f976278
+PODFILE CHECKSUM: 8206a71c1f61c2f0e15249a468e87957de7b8a00
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3

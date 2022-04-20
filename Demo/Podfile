@@ -26,6 +26,7 @@ def common_pods_all
   pod 'BlocksKit', '~> 2.2.5'
   pod 'CWStatusBarNotification', '~> 2.3.5'
   pod 'TXLiteAVSDK_Player'
+  pod 'AgoraRtcEngine_iOS', '3.6.2'
 end
 
 def common_pods_smart
